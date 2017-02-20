@@ -67,7 +67,7 @@ function nextEdu(){
 		var $currentSlide = $('.edu-unit.active-edu');
 		var i = $currentSlide.attr('data-edu-id');
 		i++;
-		if (i === 6) {
+		if (i === 7) {
 			i = 1;
 		}
 		var $nextSlide = $('#edu-'+i);
@@ -85,7 +85,7 @@ function prevEdu(){
 		var i = $currentSlide.attr('data-edu-id');
 		i--;
 		if (i === 0) {
-			i = 5;
+			i = 6;
 		}
 		var $nextSlide = $('#edu-'+i);
 		$($currentSlide).removeClass('active-edu').removeClass('slide-left').removeClass('slide-right');
