@@ -74,7 +74,7 @@ function nextEdu(){
 		$($currentSlide).removeClass('active-edu').removeClass('slide-right').removeClass('slide-left');
 		$($nextSlide).addClass('active-edu');
 		$($nextSlide).addClass('slide-right');
-		changeDots(i)
+		changeDots(i);
 	});
 }
 
@@ -91,7 +91,7 @@ function prevEdu(){
 		$($currentSlide).removeClass('active-edu').removeClass('slide-left').removeClass('slide-right');
 		$($nextSlide).addClass('active-edu');
 		$($nextSlide).addClass('slide-left');
-		changeDots(i)
+		changeDots(i);
 
 	});
 }
